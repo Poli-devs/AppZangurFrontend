@@ -1,0 +1,5 @@
+@'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+'@ | Out-File -FilePath src\core\theme\index.css -Encoding UTF8
